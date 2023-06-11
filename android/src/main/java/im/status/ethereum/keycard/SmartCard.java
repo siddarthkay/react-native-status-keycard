@@ -40,8 +40,7 @@ import im.status.keycard.applet.Pairing;
 import im.status.keycard.applet.ApplicationInfo;
 import im.status.keycard.applet.KeyPath;
 
-import im.status.keycard.HexUtils;
-
+import im.status.ethereum.keycard.HexUtils;
 
 public class SmartCard extends BroadcastReceiver implements CardListener {
     private NFCCardManager cardManager;

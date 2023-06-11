@@ -12,6 +12,8 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 
+import im.status.ethereum.keycard.HexUtils;
+
 public class Installer {
     private CardChannel plainChannel;
     private AssetManager assets;

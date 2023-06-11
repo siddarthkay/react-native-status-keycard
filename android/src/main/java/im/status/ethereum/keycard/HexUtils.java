@@ -4,7 +4,7 @@ import java.lang.StringBuilder;
 
 public class HexUtils {
 
-    public byte[] hexStringToByteArray(String s) {
+    public static byte[] hexStringToByteArray(String s) {
         int len = s.length();
         byte[] data = new byte[len / 2];
         for (int i = 0; i < len; i += 2) {
@@ -14,7 +14,7 @@ public class HexUtils {
         return data;
     }
 
-    public String byteArrayToHexString(byte[] bytes) {
+    public static String byteArrayToHexString(byte[] bytes) {
         StringBuilder sb = new StringBuilder();
         for (byte b : bytes) {
             sb.append(String.format("%02x", b));
